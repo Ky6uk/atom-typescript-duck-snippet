@@ -1,0 +1,36 @@
+{
+  ".source.ts":
+    "React/Redux Duck (TypeScript)":
+      prefix: "duck"
+      descriptionMoreURL: "https://github.com/erikras/ducks-modular-redux"
+      body: """
+        interface Action {
+          readonly type?: string;
+        }
+
+        const defaultState = {};
+
+        // Actions
+        const ${2:ACTION} = '${1:duck-name}/${2:ACTION}';
+
+        // Reducer
+        export default function ${3:reducer}(state = defaultState, action: Action = {}) {
+          switch (action.type) {
+            case ${2:ACTION}: {
+              return state;
+            }
+
+            default: {
+              return state;
+            }
+          }
+        }
+
+        // Action Creators
+
+        export function ${4:actionCreator}() {
+          return { type: ${2:ACTION} };
+        }
+
+      """
+}
