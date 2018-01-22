@@ -1,6 +1,6 @@
 {
-  "name": "atom-typesctipt-duck-snippet",
-  "version": "1.0.0",
+  "name": "typescript-duck-snippet",
+  "version": "1.0.1",
   "description": "Just the simple Duck snippet for React/Redux and TypeScript",
   "keywords": [
     "react",
@@ -9,13 +9,13 @@
     "duck",
     "snippet"
   ],
-  "homepage": "https://github.com/Ky6uk/atom-typesctipt-duck-snippet",
-  "repository": "https://github.com/Ky6uk/atom-typesctipt-duck-snippet",
+  "homepage": "https://github.com/Ky6uk/atom-typescript-duck-snippet",
+  "repository": "https://github.com/Ky6uk/atom-typescript-duck-snippet.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "bugs": {
-    "url": "https://github.com/Ky6uk/atom-typesctipt-duck-snippet/issues"
+    "url": "https://github.com/Ky6uk/atom-typescript-duck-snippet/issues"
   }
 }
